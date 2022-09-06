@@ -1,0 +1,133 @@
+body {
+	/* background-color: grey; */
+	margin: 0;
+}
+.logo {
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+.pro {
+	color: red;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container2 {
+	color: white;
+}
+.navigation {
+	margin: auto;
+	width: 60%;
+	margin: -10px;
+}
+.navigation ul {
+	text-align: center;
+}
+.navigation ul li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 18px;
+	padding: 20px;
+}
+.navigation ul li a {
+	text-decoration: none;
+	color: #333;
+}
+.navigation ul li a:hover {
+	text-decoration: underline;
+}
+.one {
+	margin: -10px;
+	margin-right: 20px;
+}
+.one ul li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 18px;
+	padding: 20px;
+}
+.one ul li a {
+	text-decoration: none;
+	color: #333;
+}
+.background {
+	background-image:url(img/mongo.png);
+	background-size: cover;
+	margin-left: 30px;
+}
+
+.tulisan {
+	margin-top: -600px;
+	color: white;
+}
+.two {
+	border: 1px solid;
+	border-radius: 50px;
+	padding: 15px;
+}
+.button {
+	text-align: center;
+	margin-top: -20px;
+}
+.started,
+.pricing {
+	display: inline-block;
+	margin: 20px;
+}
+.pricing h3 a {
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	border: 1px solid;
+	padding: 15px;
+}
+.pricing h3 a:hover {
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+}
+.started h3 a {
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	border: 1px solid;
+	padding: 15px;
+}
+.started h3 a:hover {
+	background-color: black;
+	color: white;
+}
+.people {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+
+h1 {
+	/* padding-bottom: 30px; */
+	text-align: center;
+	/* margin-top: 20px; */
+}
+p {
+	text-align: center;
+	line-height: 30px;
+}
+h2 {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	
+	background-color: black;
+	color: white;
+	padding: 30px 0;
+}
+
+
+
+
+
+
